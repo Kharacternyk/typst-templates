@@ -1,0 +1,4 @@
+[package]
+name = "templates"
+version = "1.0.0"
+entrypoint = "default.typ"
