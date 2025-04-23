@@ -1,1 +1,2 @@
-#import "big-report.typ": big-report
+#import "big-report.typ": *
+#import "slides.typ": *
