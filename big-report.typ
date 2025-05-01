@@ -1,3 +1,7 @@
+#let indent = 1.27cm
+#let tab() = h(indent)
+#let en(content) = text(lang: "en", content)
+
 #let big-report(
   title: "",
   author: "",
@@ -5,9 +9,6 @@
   doc,
 ) = [
   #let spacing = 1em
-  #let indent = 1.27cm
-  #let tab() = h(indent)
-  #let en(content) = text(lang: "en", content)
 
   #set page(margin: (left: 2.5cm, right: 1cm, top: 2cm, bottom: 2cm))
   #set text(
@@ -23,7 +24,7 @@
   #set figure(supplement: [рис.])
   #set outline(title: "ЗМІСТ")
 
-  #show raw: set text(font: "IBM Plex Mono", size: 9pt)
+  #show raw: set text(font: "IBM Plex Mono")
   #show heading.where(level: 1): set align(center)
   #show heading: self => [
     #set text(14pt)
