@@ -28,7 +28,7 @@
   #show heading.where(level: 1): set align(center)
   #show heading: self => [
     #set text(14pt)
-    #h(indent * (self.level - 1))
+    #h(indent)
     #self.body
     #v(spacing)
   ]
