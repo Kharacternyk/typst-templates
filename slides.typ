@@ -3,5 +3,6 @@
 
 #let slides(doc) = [
   #show: metropolis-theme.with()
+  #set text(font: "IBM Plex Sans")
   #doc
 ]
